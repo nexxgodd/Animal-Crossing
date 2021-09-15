@@ -43,3 +43,24 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+
+HELP.md
+/.metadata/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+**/application.properties
+**/application.yml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+

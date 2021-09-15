@@ -25,20 +25,20 @@ export class ReadDataSampleComponent implements OnInit {
 
   readFish(): any {
     
-    var mongoose = require('mongoose'); 
-    mongoose.connect(server_url).catch(function (reason: any) {
-       console.log('Unable to connect to the mongodb instance. Error: ', reason);
-      });
+//     var mongoose = require('mongoose'); 
+//     mongoose.connect(server_url).catch(function (reason: any) {
+//        console.log('Unable to connect to the mongodb instance. Error: ', reason);
+//       });
 
-    var Fish = mongoose.model("Fish", fishModel);
+//     var Fish = mongoose.model("Fish", fishModel);
 
-    Fish.find((err:any, allFish:fishModel)=>{
-      if (err){
-        console.log(err);
-      } else {
-        console.log(allFish);
-      }
-    });
+//     Fish.find((err:any, allFish:fishModel)=>{
+//       if (err){
+//         console.log(err);
+//       } else {
+//         console.log(allFish);
+//       }
+//     });
 
 
   }
