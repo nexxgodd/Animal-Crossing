@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { AcDBService } from './ac-db.service';
+import { AcService } from './ac.service';
 
-describe('AcDBService', () => {
-  let service: AcDBService;
+describe('AcService', () => {
+  let service: AcService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(AcDBService);
+    service = TestBed.inject(AcService);
   });
 
   it('should be created', () => {

@@ -1,4 +1,4 @@
-class fishModel{
+class Fish{
     id!: Number;
 	name!:  String;
 	price!: Number;
@@ -8,4 +8,4 @@ class fishModel{
 	timeArray!: [];
 	months!: [];
 }
-export default fishModel;
+export default Fish;
