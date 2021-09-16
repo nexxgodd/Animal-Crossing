@@ -13,7 +13,6 @@ const heroku_url = "https://simple-ttt-api.herokuapp.com/api/v1/ac/";
 	providedIn: 'root'
 })
 export class AcService {
-
 	constructor(private httpClient: HttpClient) { }
 
 	findFish(): Observable<Fish[]> {

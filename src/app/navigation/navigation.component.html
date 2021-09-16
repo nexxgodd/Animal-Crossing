@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="home">Home</a>
+    <ul class="navbar-nav mr-auto" routerLinkActive="active">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="animal">Animal Crossing </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link topnav-right" *ngIf="isLoggedIn" routerLink="tic">Tic-Tak_toe</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto" >
+      <li class="nav-item">
+        <a href="/Three" class="nav-link topnav-right" routerLink="Three">Three</a>
+      </li>
+      <li class="nav-item ">
+        <a href="/Four" class="nav-link topnav-right" routerLink="Four">Four</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a href class="nav-link topnav-right" (click)="logout()">Five</a>
+      </li>
+    </ul>
+  </nav>
