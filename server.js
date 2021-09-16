@@ -4,8 +4,12 @@ const path = require('path');
 const mongoose = require('mongoose');
 const app = express();
 
+const local_url = "http://localhost:4200/";
+const jjz_heroku = "https://jjz-animal-crossing.herokuapp.com/";
+const toddy_heroku = "";
+
 app.use(cors({
-  origin: "https://jjz-animal-crossing.herokuapp.com"
+  origin : local_url, jjz_heroku, toddy_heroku
 }));
 
 mongo_url = "mongodb+srv://user:p0tat0e@animalcrossingline.5id29.mongodb.net/ac";
@@ -50,6 +54,6 @@ app.get('/', function (req, res) {
 });
 
 
-app.listen(process.env.PORT || 8080, ()=>{
+app.listen(process.env.PORT || 3000, ()=>{
   console.log("service is on" );
 });
