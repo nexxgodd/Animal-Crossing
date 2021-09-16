@@ -1,11 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import Fish from 'src/models/Fish';
-import fishModel from 'src/models/Fish';
+// import Fish from 'src/models/Fish';
+// import fishModel from 'src/models/Fish';
 import { AcService } from '../ac.service';
 
-
-const server_url = "mongodb+srv://user:p0tat0e@animalcrossingline.5id29.mongodb.net/ac";
-  
 
 @Component({
   selector: 'app-read-data-sample',
