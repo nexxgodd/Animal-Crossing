@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TicTakToeComponent } from './tic-tak-toe.component';
+import { FishComponent } from './fish.component';
 
-describe('TicTakToeComponent', () => {
-  let component: TicTakToeComponent;
-  let fixture: ComponentFixture<TicTakToeComponent>;
+describe('FishComponent', () => {
+  let component: FishComponent;
+  let fixture: ComponentFixture<FishComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TicTakToeComponent ]
+      declarations: [ FishComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TicTakToeComponent);
+    fixture = TestBed.createComponent(FishComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
