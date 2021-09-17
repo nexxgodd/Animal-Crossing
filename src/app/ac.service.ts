@@ -3,8 +3,8 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import {Fish,Bug,SeaCreature} from 'src/models/Creatures';
 
-const URL = "http://localhost:3000/api/";
-//const URL = "http://localhost:8080/api/v1/ac/";
+//const URL = "http://localhost:3000/api/";
+const URL = "http://localhost:8080/api/v1/ac/";
 //const URL = "https://jjz-animal-crossing.herokuapp.com/api/";
 // const URL = "https://simple-ttt-api.herokuapp.com/api/v1/ac/";
 
